@@ -8,9 +8,15 @@ create table if not exists trabalhoHistoriador (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
+
 
 create table if not exists tempoeaHistoria (
 	id_questao int not null auto_increment primary key,
@@ -18,8 +24,13 @@ create table if not exists tempoeaHistoria (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists OrigensSerHumano (
@@ -28,8 +39,13 @@ create table if not exists OrigensSerHumano (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  povoamentoAmerica (
@@ -38,8 +54,13 @@ create table if not exists  povoamentoAmerica (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  mesopotamia (
@@ -48,8 +69,13 @@ create table if not exists  mesopotamia (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 ) ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  china (
@@ -58,8 +84,13 @@ create table if not exists  china (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 ) ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  india (
@@ -68,8 +99,13 @@ create table if not exists  india (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  egito (
@@ -78,8 +114,13 @@ create table if not exists  egito (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  hebreus (
@@ -88,8 +129,13 @@ create table if not exists  hebreus (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  fenicios (
@@ -98,8 +144,13 @@ create table if not exists  fenicios (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  persas (
@@ -108,8 +159,13 @@ create table if not exists  persas (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  civilizacao_grega (
@@ -118,8 +174,13 @@ create table if not exists  civilizacao_grega (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  origensEexpensao_roma (
@@ -128,8 +189,13 @@ create table if not exists  origensEexpensao_roma (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists  roma_imperial (
@@ -138,8 +204,13 @@ create table if not exists  roma_imperial (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 ) ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 -- 7º ANO
@@ -149,8 +220,13 @@ create table if not exists InglaterraAbsolutista(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists ColonizacaoEUA (
@@ -159,8 +235,13 @@ create table if not exists ColonizacaoEUA (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists EpocaOuroBrasil (
@@ -169,8 +250,13 @@ create table if not exists EpocaOuroBrasil (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucaoIndustrial (
@@ -179,8 +265,13 @@ create table if not exists RevolucaoIndustrial (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists Iluminismo(
@@ -189,8 +280,13 @@ create table if not exists Iluminismo(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists IndependenciaEUA(
@@ -199,8 +295,13 @@ create table if not exists IndependenciaEUA(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucaoFrancesa(
@@ -209,8 +310,13 @@ create table if not exists RevolucaoFrancesa(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists EraNapoleonica(
@@ -219,8 +325,13 @@ create table if not exists EraNapoleonica(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucaoLatina(
@@ -229,8 +340,13 @@ create table if not exists RevolucaoLatina(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists IndependenciaBR_1Reinado(
@@ -239,8 +355,13 @@ create table if not exists IndependenciaBR_1Reinado(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevoltasBR_colonia(
@@ -249,8 +370,13 @@ create table if not exists RevoltasBR_colonia(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists PrimeiroReinado(
@@ -259,8 +385,13 @@ create table if not exists PrimeiroReinado(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucoesEuropa (
@@ -269,8 +400,13 @@ create table if not exists RevolucoesEuropa (
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists GuerraDeSecessao(
@@ -279,8 +415,13 @@ create table if not exists GuerraDeSecessao(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists Socialismo_Anarquimos_Etc(
@@ -289,8 +430,13 @@ create table if not exists Socialismo_Anarquimos_Etc(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists PeriodoRegencial(
@@ -299,8 +445,13 @@ create table if not exists PeriodoRegencial(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists SegundoReinado(
@@ -309,8 +460,13 @@ create table if not exists SegundoReinado(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 -- 8º ANO
@@ -321,8 +477,13 @@ create table if not exists RevolucaoIndustrial(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists PrimeiraGuerraMundial(
@@ -331,8 +492,13 @@ create table if not exists PrimeiraGuerraMundial(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucaoRussa(
@@ -341,8 +507,13 @@ create table if not exists RevolucaoRussa(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists PrimeiraRepublicaBR(
@@ -351,8 +522,13 @@ create table if not exists PrimeiraRepublicaBR(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists CriseDe29(
@@ -361,8 +537,13 @@ create table if not exists CriseDe29(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists fascismoEnazismo(
@@ -371,8 +552,13 @@ create table if not exists fascismoEnazismo(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists SegundaGuerraMundial(
@@ -381,8 +567,13 @@ create table if not exists SegundaGuerraMundial(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists GuerraFria(
@@ -391,8 +582,13 @@ create table if not exists GuerraFria(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists GovernoVargas(
@@ -401,8 +597,13 @@ create table if not exists GovernoVargas(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists MovimentosSociais1960(
@@ -411,8 +612,13 @@ create table if not exists MovimentosSociais1960(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists MovimentosEmancipacaoAfricaIndia(
@@ -421,8 +627,13 @@ create table if not exists MovimentosEmancipacaoAfricaIndia(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists ConflitosOrienteMedio(
@@ -431,8 +642,13 @@ create table if not exists ConflitosOrienteMedio(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists ChileArgentina(
@@ -441,8 +657,13 @@ create table if not exists ChileArgentina(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists RevolucoesAmericaLatina(
@@ -451,8 +672,13 @@ create table if not exists RevolucoesAmericaLatina(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists DemocraciaBr(
@@ -461,8 +687,13 @@ create table if not exists DemocraciaBr(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists DitaduraMilitarBR(
@@ -471,8 +702,13 @@ create table if not exists DitaduraMilitarBR(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists NovaRepublicaBR(
@@ -481,8 +717,13 @@ create table if not exists NovaRepublicaBR(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists GlobalizacaoNeoliberalismo(
@@ -491,8 +732,13 @@ create table if not exists GlobalizacaoNeoliberalismo(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
 
 create table if not exists GuerrasECrise(
@@ -501,6 +747,11 @@ create table if not exists GuerrasECrise(
     conteudo varchar(200) not null,
     conteudo_especifico varchar(200) not null,
     enunciado text not null,
+    objetivaA text null,
+    objetivaB text null,
+    objetivaC text null,
+    objetivaD text null,
+    objetivaE text null,
     resposta_certa_obj varchar(5) null,
-    resposta_certa_di text null
+    resposta_dissertativa text null
 )ENGINE=InnoDB AUTO_INCREMENT = 1;
