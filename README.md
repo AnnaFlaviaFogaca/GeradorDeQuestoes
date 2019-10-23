@@ -1,4 +1,5 @@
-**SUPER HISTÓRIA, WEBSITE PARA PROFESSORES E ESTUDANTES DE HISTÓRIA**
+# SUPER HISTÓRIA <br>
+**WEBSITE PARA PROFESSORES E ESTUDANTES DE HISTÓRIA**
 
 Programa, programado em Python/Django + HTML3/CSS/Js, utilizando SQLite como banco de dados, gerador de atividades e provas de história, podendo ser utilizado por professores e alunos.
 
